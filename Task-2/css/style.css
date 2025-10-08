@@ -76,7 +76,7 @@ p {
   color: orange;
 }
 
-/* لضبط مكان اللينكات */
+
 .nav-bar ul {
   float: right;
   margin: 0;
@@ -183,12 +183,12 @@ p {
   background: #fff;
   width: 320px;
   border-radius: 1%;
-  overflow: hidden; /* علشان الهيدر والزرار يلتصقوا من غير حواف بارزة */
+  overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
 
-/* العنوان الرمادي الفاتح */
+
 .form-box h3 {
   background-color: #f7f7f7;
   color: #333;
@@ -198,12 +198,12 @@ p {
   margin: 0;
 }
 
-/* كلمة FREE بالبرتقالي */
+
 .form-box span {
   color: #ff6600;
 }
 
-/* الحقول */
+
 .form-box form {
   padding: 20px;
 }
@@ -223,7 +223,7 @@ p {
   color: #aaa;
 }
 
-/* الزرار البرتقالي */
+
 .form-box button {
   display: block;
   width: 100%;
@@ -253,8 +253,8 @@ p {
 }
 
 .tabs-social .container {
-  text-align: center; /* يخلي كل العناصر ف النص */
-  font-size: 0; /* يشيل المسافات البيضاء بين العناصر */
+  text-align: center; 
+  font-size: 0;
 }
 
 .social-content,
@@ -285,8 +285,8 @@ p {
 
 .margin-tabs {
   margin-top: 7%;
-  text-align: center; /* علشان العناصر كلها تتوسّط */
-  font-size: 0; /* يشيل المسافة البيضاء بين عناصر inline-block */
+  text-align: center;
+  font-size: 0; 
 }
 
 .tabs-part,
@@ -294,11 +294,11 @@ p {
 .tabs-image {
   display: inline-block;
   vertical-align: top;
-  font-size: 16px; /* نرجع حجم الخط الطبيعي */
+  font-size: 16px; 
   padding: 20px;
 }
 
-/* عرض كل جزء */
+
 .tabs {
   background-color: rgb(226, 226, 226);
   height: 85vh;
@@ -330,7 +330,7 @@ p {
 }
 
 .btn-tabs {
-  display: block; /* يخلي الزرار ياخد صف لوحده */
+  display: block; 
   background-color: #ff6600;
   border: none;
   padding: 12px 0;
@@ -351,13 +351,13 @@ p {
     linear-gradient(to bottom, rgba(0, 0, 0, 0.2), black);
 }
 
-/* شكل التابات */
+
 .tabs-part div {
   background-color: rgb(53, 52, 52);
   color: #fff;
-  width: 100px; /* عرض المربع */
-  height: 100px; /* طول المربع */
-  line-height: 100px; /* يخلي النص أو الأيقونة في النص عموديًا */
+  width: 100px;
+  height: 100px; 
+  line-height: 100px; 
   text-align: center;
   border-radius: 4%;
   border-bottom: 1px solid #fff;
@@ -414,7 +414,7 @@ p {
 .content-subList li {
   position: relative;
   margin-bottom: 25px;
-  padding-left: 60px; /* المسافة اللي تسيب مكان الأيقونة */
+  padding-left: 60px; 
 }
 
 .content-subList li i {
@@ -449,7 +449,7 @@ p {
   color: gray;
 }
 
-/* النص بجانب الأيقونة */
+
 .list-item .text h3 {
   margin: 0;
   font-size: 18px;
@@ -468,11 +468,11 @@ p {
 /***** Start Standard style *****/
 .Standard {
   background-color: rgb(226, 226, 226);
-  min-height: 85vh; /* بدل height علشان يكون مرن مع المحتوى */
+  min-height: 85vh; 
   display: flex;
-  align-items: center; /* يخلي المحتوى والصورة ف النص رأسيًا */
+  align-items: center; 
   justify-content: center;
-  gap: 5%; /* مسافة بين المحتوى والصورة */
+  gap: 5%;
 }
 
 .content-Standard {
@@ -539,7 +539,7 @@ p {
 
 .cards {
   text-align: center;
-  font-size: 0; /* علشان يشيل المسافات بين عناصر inline-block */
+  font-size: 0; 
 }
 
 .cards > div {
@@ -548,7 +548,7 @@ p {
   vertical-align: top;
   margin: 0 1.5%;
   text-align: center;
-  font-size: 16px; /* نرجع حجم النص الطبيعي */
+  font-size: 16px;
 }
 
 .cards i {
@@ -689,7 +689,7 @@ p {
   vertical-align: top;
   width: 300px;
   margin: 0 15px;
-  position: relative; /* دي مهمة للمثلث */
+  position: relative; 
 }
 
 .testimonial .box {
@@ -700,7 +700,7 @@ p {
   position: relative;
 }
 
-/* مثلث تحت البوكس */
+
 .testimonial .box::before {
   content: "";
   position: absolute;
@@ -849,7 +849,7 @@ transform: none;
   margin-bottom: 40px;
 }
 
-/* ترتيب الفورم */
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -880,7 +880,7 @@ transform: none;
   border-bottom-color: #ff6600;
 }
 
-/* تكست اريا */
+
 .message-box {
   width: 50%;
 }
@@ -900,7 +900,7 @@ transform: none;
   border-bottom-color: #ff6600;
 }
 
-/* الزر */
+
 .Contact button {
   background-color: #ff6600;
   color: #fff;
