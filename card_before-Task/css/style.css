@@ -1,0 +1,152 @@
+:root {
+  --primary: #2da884;
+  --secondary-bg: #f7f7f7;
+  --contact-bg: #1c7c64;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  height: 100vh;
+   background-color: #111;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-white {
+  color: white;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-left {
+  border-left: 1px solid #ddd;
+}
+
+.btn-rounded {
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #248b6d;
+}
+
+.btn-white {
+  background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-white:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-container button:first-child {
+  margin-right: 10px;
+}
+
+.cards .container {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+ 
+}
+.card {
+  width: 32%;
+  border-radius: 20px;
+  color: #fff;
+  background-color: rgb(44, 44, 44);
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding: 2%;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  background-color: green;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 40px;
+  border-radius: 0 41% 0 105%;
+  transition: all 0.4s ease;
+}
+
+.card:hover::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+.card h2,
+.card p {
+  position: relative;
+  z-index: 2;
+}
+.card span {
+  color: orange;
+}
+.card p {
+  padding: 2%;
+}
+
+
+.card:nth-child(1)::before { background-color: #2da884; } 
+.card:nth-child(2)::before { background-color: #261c7c; } 
+.card:nth-child(3)::before { background-color: #f7b733; }
+.card:nth-child(4)::before { background-color: #fc4a1a; }
+.card:nth-child(5)::before { background-color: #4a90e2; }
+.card:nth-child(6)::before { background-color: #8e44ad; }
+.card:nth-child(7)::before { background-color: #a01677; }
+.card:nth-child(8)::before { background-color: #c0392b; }
