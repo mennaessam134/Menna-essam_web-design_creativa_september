@@ -1,0 +1,24 @@
+
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "Mobile Mobile Mobile learn-more learn-more learn-more"
+      "keyboard keyboard IMAC-RETINA IMAC-RETINA POPULAR POPULAR"
+      "Games-ourpasion Games-ourpasion BEST-CHOICE BEST-CHOICE POPULAR POPULAR"
+      "Connect Connect Experience Experience vision vision";
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "Mobile Mobile learn-more learn-more"
+      "keyboard IMAC-RETINA IMAC-RETINA POPULAR"
+      "Games-ourpasion BEST-CHOICE BEST-CHOICE POPULAR"
+      "Connect Experience vision vision";
+  }
+}
